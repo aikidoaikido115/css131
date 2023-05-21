@@ -2,9 +2,9 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-Channel_secret = os.getenv('ENV_Channel_secret')
-Channel_access_token = os.getenv('ENV_Channel_access_token')
-basic_id = os.getenv('ENV_basic_id')
+Channel_secret = os.getenv('ENV_Channel_secret')#your channel secret
+Channel_access_token = os.getenv('ENV_Channel_access_token')#your token
+basic_id = os.getenv('ENV_basic_id') #your id
 
 
 # data = [('name1', 'link1', 'image1'),('name2', 'link2', 'image2'),('name3', 'link3', 'image3'),......,('name n', 'link n', 'image n')] 
